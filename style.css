@@ -1,0 +1,43 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+:root {
+  --Light-red-CTA-text: hsl(356, 100%, 66%);
+  --Very-light-red-CTA-over-background: hsl(355, 100%, 74%);
+  --Very-dark-blue-headings: hsl(208, 49%, 24%);
+  --White-text: hsl(0, 0%, 100%);
+  --Grayish-blue-footer-text: hsl(240, 2%, 79%);
+  --Very-dark-grayish-blue-body-copy: hsl(207, 13%, 34%);
+  --Very-dark-black-blue-footer-background: hsl(240, 10%, 16%);
+  /* font-size */
+  --font-size: 62.5%;
+}
+
+html {
+  font-size: var(--font-size);
+}
+
+body {
+  font-family: "Overpass", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+}
+
+/* Reseteos */
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+button {
+  margin: 0;
+  outline: 0;
+}
+
+a {
+  text-decoration: none;
+}
