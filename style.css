@@ -6,15 +6,21 @@
 }
 
 :root {
-  --Light-red-CTA-text: hsl(356, 100%, 66%);
-  --Very-light-red-CTA-over-background: hsl(355, 100%, 74%);
-  --Very-dark-blue-headings: hsl(208, 49%, 24%);
-  --White-text: hsl(0, 0%, 100%);
-  --Grayish-blue-footer-text: hsl(240, 2%, 79%);
-  --Very-dark-grayish-blue-body-copy: hsl(207, 13%, 34%);
-  --Very-dark-black-blue-footer-background: hsl(240, 10%, 16%);
+  --light-red-CTA-text: hsl(356, 100%, 66%);
+  --very-light-red-CTA-over-background: hsl(355, 100%, 74%);
+  --very-dark-blue-headings: hsl(208, 49%, 24%);
+  --white-text: hsl(0, 0%, 100%);
+  --grayish-blue-footer-text: hsl(240, 2%, 79%);
+  --very-dark-grayish-blue-body-copy: hsl(207, 13%, 34%);
+  --very-dark-black-blue-footer-background: hsl(240, 10%, 16%);
+  --very-light-red: hsl(13, 100%, 72%);
+  --light-red: hsl(353, 100%, 62%);
+  --very-dark-gray-blue: hsl(237, 17%, 21%);
+  --very-dark-desaturated-blue: hsl(237, 23%, 32%);
   /* font-size */
   --font-size: 62.5%;
+  --font-family-overpass: "Overpass", sans-serif;
+  --font-family-ubuntu: "Ubuntu", sans-serif;
 }
 
 html {
@@ -26,7 +32,7 @@ body {
   font-family: "Ubuntu", sans-serif;
 }
 
-/* Reseteos */
+/* reseteos */
 
 img {
   display: block;
@@ -34,10 +40,69 @@ img {
 }
 
 button {
-  margin: 0;
+  border: 0;
   outline: 0;
 }
 
 a {
   text-decoration: none;
+}
+
+/* header */
+
+.header {
+  width: 100%;
+  background-image: url(/images/bg-pattern-intro-mobile.svg);
+  background-repeat: no-repeat;
+  background-position: top -35rem right -47rem;
+  background-color: var(--light-red-CTA-text);
+  border-bottom-left-radius: 8rem;
+  padding: 4rem 2rem 10rem 2rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title__header {
+  color: var(--white-text);
+  font-size: 3.7rem;
+  text-align: center;
+  font-family: var(--font-family-overpass);
+  font-weight: 600;
+  margin-top: 7rem;
+  margin-bottom: 2rem;
+}
+
+.copy__header {
+  color: var(--white-text);
+  font-weight: 300;
+  font-family: var(--font-family-overpass);
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.button {
+  font-family: var(--font-family-ubuntu);
+  font-size: 1.4rem;
+  font-weight: 700;
+  background-color: var(--white-text);
+  color: var(--light-red-CTA-text);
+  border-radius: 2rem;
+  padding: 1rem 1.5rem;
+  cursor: pointer;
+}
+
+.box__button {
+  text-align: center;
+}
+
+.button-orange {
+  margin-left: 1rem;
+  border: 1px solid white;
+  color: var(--white-text);
+  background-color: transparent;
 }
