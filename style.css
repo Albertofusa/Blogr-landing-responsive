@@ -61,6 +61,7 @@ a {
 }
 
 .navbar {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -97,6 +98,7 @@ a {
 }
 
 .box__button {
+  width: 100%;
   text-align: center;
 }
 
@@ -105,4 +107,33 @@ a {
   border: 1px solid white;
   color: var(--white-text);
   background-color: transparent;
+  padding: 1rem 2rem;
+}
+
+.box__title__main {
+  width: 100%;
+  padding-top: 7rem;
+}
+
+.title__main {
+  text-align: center;
+  font-size: 2.5rem;
+  color: var(--very-dark-gray-blue);
+  font-family: var(--font-family-overpass);
+  font-weight: 700;
+  max-width: 77%;
+  margin: 0 auto;
+}
+
+.box__illustration__main {
+  width: 100%;
+ padding: 5rem 0 5rem 0;
+}
+
+.illustration__mobile {
+  margin: 0 auto;
+}
+
+.copy__main {
+  
 }
