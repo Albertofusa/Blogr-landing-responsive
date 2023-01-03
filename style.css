@@ -57,6 +57,9 @@ a {
   background-position: top -35rem right -47rem;
   background-color: var(--light-red-CTA-text);
   border-bottom-left-radius: 8rem;
+}
+
+.content__header {
   padding: 4rem 2rem 10rem 2rem;
 }
 
@@ -110,30 +113,102 @@ a {
   padding: 1rem 2rem;
 }
 
+/* main */
+
 .box__title__main {
   width: 100%;
-  padding-top: 7rem;
+  padding: 7rem 2rem 0 2rem;
 }
 
 .title__main {
-  text-align: center;
-  font-size: 2.5rem;
+  font-size: 3rem;
   color: var(--very-dark-gray-blue);
   font-family: var(--font-family-overpass);
   font-weight: 700;
-  max-width: 77%;
-  margin: 0 auto;
+  text-align: center;
 }
 
 .box__illustration__main {
   width: 100%;
- padding: 5rem 0 5rem 0;
+  padding: 5rem 2rem 5rem 2rem;
 }
 
 .illustration__mobile {
   margin: 0 auto;
 }
 
+.box__subtitle__main {
+  width: 100%;
+  padding: 0 2rem 3rem 2rem;
+}
+
+.box__subtitle__main__top {
+  padding-top: 3rem;
+}
+
+.subtitle__main {
+  font-size: 3rem;
+  color: var(--very-dark-gray-blue);
+  font-family: var(--font-family-overpass);
+  font-weight: 700;
+  text-align: center;
+}
+
+.box__copy {
+  width: 100%;
+  padding: 0 2rem 0 2rem;
+}
+
 .copy__main {
-  
+  text-align: center;
+  color: var(--very-dark-grayish-blue-body-copy);
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  font-family: var(--font-family-overpass);
+  font-weight: 300;
+  text-align: center;
+  max-width: 88%;
+  margin: 0 auto;
+}
+
+.copy__main__bottom {
+  padding-bottom: 28rem;
+}
+
+/* section-darkblue */
+
+.section__darkblue {
+  width: 100%;
+  background-color: var(--very-dark-gray-blue);
+  background-image: url(/images/bg-pattern-circles.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top -10rem center;
+  border-top-right-radius: 10rem;
+  border-bottom-left-radius: 10rem;
+  position: relative;
+}
+
+.content__darkblue {
+  width: 100%;
+  padding: 20rem 2rem 10rem 2rem;
+}
+
+.illustration__phones {
+  position: absolute;
+  top: -20rem;
+  left: 0;
+}
+
+.subtitle__darkblue {
+  color: var(--white-text);
+  font-family: var(--font-family-overpass);
+  font-weight: 700;
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.copy__darkblue {
+  color: var(--grayish-blue-footer-text);
 }
