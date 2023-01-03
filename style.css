@@ -252,3 +252,51 @@ a {
   font-weight: 400;
   margin-bottom: 0.5rem;
 }
+
+/* mediaqueries */
+
+@media (min-width: 400px) {
+  .illustration__phones {
+    position: absolute;
+    top: -23rem;
+    left: 0;
+  }
+}
+
+@media (min-width: 430px) {
+  .illustration__phones {
+    position: absolute;
+    top: -25rem;
+    left: 0;
+  }
+}
+
+@media (min-width: 450px) {
+  .illustration__phones {
+    position: absolute;
+    top: -27rem;
+    left: 0;
+  }
+
+  .copy__main__bottom {
+    margin-bottom: 34rem;
+  }
+}
+
+@media (min-width: 466px) {
+  .illustration__phones {
+    position: absolute;
+    top: -30rem;
+    left: 0;
+  }
+
+  .header {
+    width: 100%;
+    background-image: url(/images/bg-pattern-intro-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: top -38rem right -44rem;
+    background-color: var(--light-red-CTA-text);
+    border-bottom-left-radius: 8rem;
+  }
+}
+/* me quede en 490 */
